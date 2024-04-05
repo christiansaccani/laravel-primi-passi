@@ -27,13 +27,13 @@
                     <a class="nav-link" aria-current="page" href="{{route('firstgen')}}">Prima Gen</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="{{route('secondgen')}}">Seconda Gen</a>
+                    <a class="nav-link" href="{{route('secondgen')}}">Seconda Gen</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="{{route('thirdgen')}}">Terza Gen</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="{{route('fourthgen')}}">Quarta Gen</a>
+                    <a class="nav-link active" href="{{route('fourthgen')}}">Quarta Gen</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="{{route('fifthgen')}}">Quinta Gen</a>
@@ -54,7 +54,7 @@
 
         @if($showPokemon)
             <ul>
-                @foreach($pokemon_second as $pokemon)
+                @foreach($pokemon_fourth as $pokemon)
                     <li>
                         {{$pokemon}}
                     </li>

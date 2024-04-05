@@ -29,9 +29,24 @@
                   <li class="nav-item">
                     <a class="nav-link" href="{{route('secondgen')}}">Seconda Gen</a>
                   </li>
-                  
-                  
-                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{route('thirdgen')}}">Terza Gen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{route('fourthgen')}}">Quarta Gen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{route('fifthgen')}}">Quinta Gen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{route('sixthgen')}}">Sesta Gen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{route('seventhgen')}}">Settima Gen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{route('eighthgen')}}">Ottava Gen</a>
+                  </li>     
                 </ul>
               </div>
             </div>
